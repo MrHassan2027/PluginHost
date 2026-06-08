@@ -7,11 +7,11 @@ Defines an `IPlugin` contract, then at runtime scans a `/plugins` directory for 
 
 ## Quick Start
 ```bash
-git clone https://github.com/yourusername/PluginHost
+git clone https://github.com/MrHassan2027/PluginHost
 cd PluginHost
 dotnet build
 # Copy a plugin DLL into ./plugins/
-dotnet run --project PluginHost.Host
+dotnet run --project PluginHost.Demo
 ```
 
 ```csharp
